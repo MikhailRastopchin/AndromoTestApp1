@@ -1,0 +1,22 @@
+name: test_app
+description: A new Flutter project.
+
+version: 1.0.0+13
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  photo_view: ^0.10.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
